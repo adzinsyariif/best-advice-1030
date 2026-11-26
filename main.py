@@ -29,10 +29,15 @@
 #
 # Winner: C. It is the only one that is simultaneously a concrete
 # remembered scene, a rule I actually use, and short enough to keep.
+#
+# Revision 1: put the scene first ("Shelling peas beside me") so the
+# line opens inside the moment instead of reporting it; cut
+# "told me while" and swap "including" for the shorter, sharper
+# "even" so the forgiveness beat hits harder. Still one sentence.
 
 import os
 
-LINE = "My grandmother told me while shelling peas: feed people before you ask them for anything, including forgiveness."
+LINE = "Shelling peas beside me, my grandmother said: feed people before you ask them for anything, even forgiveness."
 
 
 def main() -> None:
