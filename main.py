@@ -34,10 +34,15 @@
 # line opens inside the moment instead of reporting it; cut
 # "told me while" and swap "including" for the shorter, sharper
 # "even" so the forgiveness beat hits harder. Still one sentence.
+#
+# Revision 2 (final): add "first" so the rule reads as an order of
+# operations, drop the colon for a smoother one-breath read, and set
+# the last beat off with an em dash so "even forgiveness" lands as
+# the thing to keep. Verified: single sentence, under 200 chars.
 
 import os
 
-LINE = "Shelling peas beside me, my grandmother said: feed people before you ask them for anything, even forgiveness."
+LINE = "Shelling peas beside me, my grandmother said feed people first, before you ask them for anything — even forgiveness."
 
 
 def main() -> None:
